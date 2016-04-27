@@ -29,7 +29,8 @@
             WebMail.Password = "mySmtpPassword";
             WebMail.From = "rsvp@example.com";
 
-            WebMail.Send("party-host@example.com", "RSVP Notification",
+            //SMTP mail server not defined
+            //WebMail.Send("party-host@example.com", "RSVP Notification",
                 Model.Name + " is " + ((Model.WillAttend ?? false) ? "" : "not") + " attending");
         }
         catch (Exception)
