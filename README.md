@@ -1,1 +1,1 @@
-# 70-486-PartyInvites
+# Chapter 1 - PartyInvites app
