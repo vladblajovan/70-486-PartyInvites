@@ -7,7 +7,7 @@ using PartyInvites.Models;
 
 namespace PartyInvites.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller 
     {
         public ViewResult Index()
         {
